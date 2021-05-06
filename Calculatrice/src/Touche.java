@@ -4,7 +4,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import java.awt.*;
 
-public abstract class Touche {
+public  class Touche {
     
 
     JButton bc,bcl,bOff,b2ndF;
@@ -42,6 +42,8 @@ public abstract class Touche {
     Dimension dmin = new Dimension(80, 30);
     Dimension dmoyen = new Dimension(165, 30);
     Dimension dmax = new Dimension(440, 35);
+    JRadioButton Scie;
+    JRadioButton Norm;
 
     public Touche() {
 
@@ -49,14 +51,23 @@ public abstract class Touche {
         bc = new JButton("C");
         bOff = new JButton("OFF");
         bcl = new JButton("Del");
+        Scie=new JRadioButton("Sci");
+        Norm=new JRadioButton("Std");
+        
+
+        
+    }
+
+    public  void setDimension(){
+
 
         b2ndF.setPreferredSize(dmin);
         bc.setPreferredSize(dmin);
         bOff.setPreferredSize(dmin);
         bcl.setPreferredSize(dmin);
-    }
-
-    public abstract void setDimension();
+        Scie.setPreferredSize(dmin);
+        Norm.setPreferredSize(dmin);
+       
 
         // Definir la taille préférer des composants
         // b0.setPreferredSize(dmin);
@@ -110,6 +121,10 @@ public abstract class Touche {
         // bTan.setPreferredSize(dmin);
         // txt.setPreferredSize(dmax);
 
+
+    }
+
+        
 
 
 

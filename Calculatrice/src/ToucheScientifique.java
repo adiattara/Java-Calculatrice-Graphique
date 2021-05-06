@@ -28,8 +28,7 @@ public class ToucheScientifique extends ToucheNormal {
     JButton bB;
     JButton bA;
 
-    JRadioButton Scie;
-    JRadioButton Norm;
+    
     JRadioButton Bin;
     JRadioButton Dec;
     JRadioButton Oct;
@@ -61,11 +60,43 @@ public class ToucheScientifique extends ToucheNormal {
         bC = new JButton("C");
         bB = new JButton("B");
         bA = new JButton("A");
-        Scie = new JRadioButton("Sci");
-        Norm = new JRadioButton("Std");
+        
         Bin = new JRadioButton("Bin");
         Dec = new JRadioButton("Dec");
         Oct = new JRadioButton("Oct");
         Hex = new JRadioButton("Hex");
+    }
+
+    public void setDimension(){
+        
+        super.setDimension();
+        bX1Y.setPreferredSize(dmin);
+        b1X.setPreferredSize(dmin);
+        bpm.setPreferredSize(dmin);
+        bMult.setPreferredSize(dmin);
+        bSqrt.setPreferredSize(dmin);
+        bLog.setPreferredSize(dmin);
+        bRand.setPreferredSize(dmin);
+        bnCr.setPreferredSize(dmin);
+        bnAr.setPreferredSize(dmin);
+        bFact.setPreferredSize(dmin);
+        bCos.setPreferredSize(dmin);
+        bPuis.setPreferredSize(dmin);
+        bX2.setPreferredSize(dmin);
+        b10x.setPreferredSize(dmin);
+        bEx.setPreferredSize(dmin);
+        bF.setPreferredSize(dmin);
+        bE.setPreferredSize(dmin);
+        bD.setPreferredSize(dmin);
+        bC.setPreferredSize(dmin);
+        bB.setPreferredSize(dmin);
+        bA.setPreferredSize(dmin);
+        b2ndF.setPreferredSize(dmin);
+        Bin.setPreferredSize(dmin);
+        Dec.setPreferredSize(dmin);
+        Oct.setPreferredSize(dmin);
+        Hex.setPreferredSize(dmin);
+        bSin.setPreferredSize(dmin);
+        bTan.setPreferredSize(dmin);
     }
 }

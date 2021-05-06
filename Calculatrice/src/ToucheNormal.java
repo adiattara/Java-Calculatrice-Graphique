@@ -31,8 +31,24 @@ public class ToucheNormal extends Touche {
 
     @Override
     public void setDimension() {
-        // TODO Auto-generated method stub
-        
+         this.setDimension();
+         b0.setPreferredSize(dmin);
+         b1.setPreferredSize(dmin);
+         b2.setPreferredSize(dmin);
+         b3.setPreferredSize(dmin);
+         b4.setPreferredSize(dmin);
+         b5.setPreferredSize(dmin);
+         b6.setPreferredSize(dmin);
+         b7.setPreferredSize(dmin);
+         b8.setPreferredSize(dmin);
+         b9.setPreferredSize(dmin);
+         b.setPreferredSize(dmin);
+         bexp.setPreferredSize(dmin);
+         bDiv.setPreferredSize(dmin);
+         bSom.setPreferredSize(dmin);
+         Soust.setPreferredSize(dmin);
+         bRes.setPreferredSize(dmoyen);
+
     }
 
 }
